@@ -41,12 +41,6 @@ icon = "cloud"
 text = "The sky island arena game comes back."
 
 [[teasers]]
-title = "Freaky Four"
-horizon = "later"
-icon = "heart"
-text = "The Freaky Four boss fight comes back to the City."
-
-[[teasers]]
 title = "Ritual Tomb"
 horizon = "later"
 icon = "door"
