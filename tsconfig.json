@@ -16,6 +16,7 @@
   "include": [
     ".vitepress/**/*.ts",
     ".vitepress/**/*.mts",
-    ".vitepress/**/*.vue"
+    ".vitepress/**/*.vue",
+    "news/**/*.ts"
   ]
 }

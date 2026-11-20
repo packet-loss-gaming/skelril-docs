@@ -1,6 +1,6 @@
 # Skelril wiki (public)
 
-VitePress site (TypeScript) for https://wiki.skelril.net: the player guide (`docs/`) and the roadmap (`roadmap/roadmap.toml`). See README.md.
+VitePress site (TypeScript) for https://wiki.skelril.net: the player guide (`docs/`), news posts (`news/`) and the roadmap (`roadmap/roadmap.toml`). See README.md.
 
 - Public content only: no admin-only commands, privileges, settings or server operation.
 - Document features with the game repository's `skills/document-feature/SKILL.md`; its docs check verifies this repo's

@@ -1,0 +1,79 @@
+# "Did you know?" tips for the home page. Write for players, one fact per tip, and check it against the guide page it
+# links to. `link` must be a player guide page (an #anchor is allowed). Put `commands` in backticks.
+#
+# The build writes these to /tips.json, and the home page loads that and shows a random tip from this file and the
+# cheat sheet: every row of docs/*-cheat-sheet.md becomes a tip too, except commands listed in `skip` (such as aliases).
+
+skip = ["/pr"]
+
+[[tips]]
+text = "Right-click a bed twice in quick succession to set your home for free. `/home` takes you back, and you respawn there."
+link = "/guide/mechanics/warps#your-home"
+
+[[tips]]
+text = "A Gem of Life in your inventory keeps everything you carry, experience included, when you die. One gem is used up."
+link = "/guide/mechanics/death"
+
+[[tips]]
+text = "Nobody else can open your grave until it is three days old, and old graves are reused first. Fetch your things in time."
+link = "/guide/mechanics/death"
+
+[[tips]]
+text = "A Phantom Potion carries you to your most recent grave, and mobs leave you alone for 30 seconds unless you hurt something."
+link = "/guide/mechanics/death"
+
+[[tips]]
+text = "At the City's bank signs, a gold nugget is worth 1 Skrin, an ingot 9 and a block 81."
+link = "/guide/mechanics/wallet#bank-signs"
+
+[[tips]]
+text = "Throw items into a sacrificial pit and the gods turn their value into loot. Big offerings can bless you with prayers for an hour."
+link = "/guide/mechanics/sacrificial-pits"
+
+[[tips]]
+text = "Hold an item and run `/sacrifice value` to see what it is worth to the gods."
+link = "/guide/mechanics/sacrificial-pits"
+
+[[tips]]
+text = "Pixies can sort your chests for you. Start a network with `/sorter network create <name>`."
+link = "/guide/mechanics/item-sorters"
+
+[[tips]]
+text = "An item sorter sink in `void` mode accepts anything, which makes it a handy junk chest."
+link = "/guide/mechanics/item-sorters"
+
+[[tips]]
+text = "Light a ring of emerald blocks with flint and steel to make a Sky Gate to Astaria, if you have access."
+link = "/guide/mechanics/portals"
+
+[[tips]]
+text = "One block in the Nether is eight blocks in the ranged world."
+link = "/guide/mechanics/portals"
+
+[[tips]]
+text = "Your cats, wolves and parrots follow you through gates when they are standing nearby, and so do animals on a lead."
+link = "/guide/mechanics/portals#bringing-animals"
+
+[[tips]]
+text = "Building and keeping up a place in the open worlds earns investment. Enough of it creates a Ziggy claim automatically."
+link = "/guide/protecting-your-stuff#ziggy-claims"
+
+[[tips]]
+text = "Run `/lock`, then punch a chest, to lock it. `/lock add <player>` lets a friend use it."
+link = "/guide/protecting-your-stuff#locking-containers"
+
+[[tips]]
+text = "Outside the arenas, both players need `/pvp` turned on to fight each other."
+link = "/guide/protecting-your-stuff#player-combat"
+
+[[tips]]
+text = "The market's stock and prices update every two hours."
+link = "/guide/mechanics/market"
+
+[[tips]]
+text = "Three percent of every market purchase goes into the lottery pot."
+link = "/guide/mechanics/market"
+
+[[tips]]
+text = "Reporting a problem with a place? Run `/whereami` and quote the coordinates it shows."
+link = "/guide/mechanics/warps"

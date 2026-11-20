@@ -1,25 +1,16 @@
-// The roadmap's statuses and data shape, shared by the data loader and the page.
-export const STATUSES = ['done', 'active', 'next', 'planned', 'later'] as const
-export type Status = (typeof STATUSES)[number]
+// The roadmap's data shape, shared by the data loader and the page.
+export const HORIZONS = ['soon', 'working', 'later'] as const
+export type Horizon = (typeof HORIZONS)[number]
 
-export interface RoadmapItem {
-  text: string
-  status: Status
-}
-
-export interface RoadmapPhase {
-  name: string
+/** An upcoming feature to look out for. */
+export interface Teaser {
+  title: string
+  horizon: Horizon
   icon: string
-  status: Status
-  summary: string
-  items: RoadmapItem[]
+  text: string
 }
 
 export interface RoadmapData {
-  title: string
-  tagline: string
-  updated: string
-  intro: string
-  legend: Record<Status, string>
-  phases: RoadmapPhase[]
+  horizons: Record<Horizon, string>
+  teasers: Teaser[]
 }

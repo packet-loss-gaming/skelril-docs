@@ -1,198 +1,113 @@
-# Public roadmap data, rendered at /roadmap. Edit this file, then build (./build.sh) or push to main to publish.
-# Keep it short and in plain language: the detailed hand-off lives in the game repository's docs/roadmap.md.
-# status: done | active | next | planned | later     icon: any name in the theme's src/pixelData.json (skelril-docs-theme)
-title = "Skelril"
-tagline = "The Grindstone server, rebuilt on Luanti."
-updated = 2026-11-19
+# Public roadmap: upcoming features to look out for, rendered at /roadmap. Edit this file, then build (./build.sh) or
+# push to main to publish. Write for players. Internal and admin work belongs in the game repository's docs/roadmap.md.
+#
+# One teaser per feature, so no "X and Y" titles. Horizon: soon | working | later
+# Icon: any name in the theme's src/pixelData.json (skelril-docs-theme)
+# When a feature ships, delete its teaser and add a feature post in news/ (see README.md), in the same commit.
 
-# A line ending in a backslash continues on the next line, without the line break.
-intro = """\
-  Skelril takes the City, the economy and the custom items of the Grindstone Minecraft server and rebuilds them as \
-  a game on Luanti, on top of the Mineclonia base game. Here is what already works and what comes next.\
-  """
-
-[legend]
-done = "Done"
-active = "In progress"
-next = "Up next"
-planned = "Planned"
+[horizons]
+soon = "Soon"
+working = "In the works"
 later = "Later"
 
-[[phases]]
-name = "Foundation"
-icon = "tree"
-status = "done"
-summary = "The engine room that every feature stands on."
-items = [
-  { text = "Server library in C++ with a PostgreSQL pool and migrations", status = "done" },
-  { text = "Region system with owners, members, flags, priorities and polygons", status = "done" },
-  { text = "Build and dig protection, PvP flag, greetings and farewells", status = "done" },
-  { text = "Memory-first persistence that never blocks the server", status = "done" },
-  { text = "Regions identify manual, lock or automatic management", status = "done" },
-]
+[[teasers]]
+title = "Frostborn"
+horizon = "soon"
+icon = "pearl"
+text = "Restore the frozen arena, then fight the Frozen King."
 
-[[phases]]
-name = "The City"
-icon = "door"
-status = "done"
-summary = "The original world, converted block by block."
-items = [
-  { text = "Terrain, 238 regions, 1,260 signs, 49 item frames", status = "done" },
-  { text = "3,362 stacks of chest contents", status = "done" },
-  { text = "Baked lighting for the whole City", status = "done" },
-  { text = "Void world with spawn", status = "done" },
-  { text = "Check the converted City visually in a client", status = "next" },
-]
-
-[[phases]]
-name = "Economy and Social"
-icon = "chest"
-status = "done"
-summary = "Money, travel and rules, with the real 2025 data imported."
-items = [
-  { text = "Wallet with Skrin and /pay", status = "done" },
-  { text = "Gold deposit and withdrawal signs with audited crash-safe delivery", status = "done" },
-  { text = "Lottery with draws and winner history", status = "done" },
-  { text = "Highscore tables", status = "done" },
-  { text = "Warps, homes and a searchable warp menu", status = "done" },
-  { text = "Jail with timed sentences and cells", status = "done" },
-  { text = "Container locks", status = "done" },
-  { text = "Full-height Ziggy convex hulls, player trust and nightly preservation checks", status = "done" },
-  { text = "Hand-seed older builds when protection is needed", status = "later" },
-  { text = "City market purchase screen, paid orders and lottery contribution", status = "done" },
-  { text = "Weekly lottery draws, hourly pot announcements and City ticket signs", status = "done" },
-  { text = "Whole-Skrin leaderboard and rotating monthly Goblet", status = "done" },
-  { text = "Two-hour market restocking and price updates", status = "done" },
-  { text = "Timed server-wide perks for Factory, Mirage and future areas", status = "done" },
-  { text = "Global PvP toggle, safe spots and combat-logout penalties", status = "done" },
-  { text = "Full prayer catalogue with XP costs and interactive fireballs", status = "done" },
-  { text = "Temporary buff listing and growth notifications", status = "done" },
-  { text = "Invite activation codes, arrival room and welcome portals", status = "done" },
-  { text = "Referral rewards and invite administration", status = "done" },
-]
-
-[[phases]]
-name = "Items and Art"
-icon = "torch"
-status = "active"
-summary = "Weapons, bows, every special attack, armor sets, potions and summation work; tools, scrolls, tomes, hymns and party boxes remain."
-items = [
-  { text = "Every custom item registered, with artwork in the Mineclonia style", status = "done" },
-  { text = "All ten custom bows draw, fire and preserve their artwork", status = "done" },
-  { text = "Original melee damage and fast attack attributes", status = "done" },
-  { text = "Every special attack: Master, Fear, Unleashed, Phantom, Red, animal bows", status = "done" },
-  { text = "Protected drops only their owner can collect", status = "done" },
-  { text = "Ancient/Royal, Nectric and Necros absorption and repair", status = "done" },
-  { text = "Ancient Crown healing, vanilla XP and pickup compaction", status = "done" },
-  { text = "Necrosis retaliation and Peaceful Warrior armor", status = "done" },
-  { text = "Red Feather redstone absorption", status = "done" },
-  { text = "Divine, Holy and Extreme combat potion effects", status = "done" },
-  { text = "Scroll and Hymn of Summation with all 17 source recipes", status = "done" },
-  { text = "Remaining tools, scrolls, tomes, hymns and party boxes", status = "planned" },
-  { text = "Worn-armor textures for every custom armor set", status = "done" },
-]
-
-[[phases]]
-name = "Guilds"
+[[teasers]]
+title = "Ninja powers"
+horizon = "working"
 icon = "sun"
-status = "active"
-summary = "Ninja and Rogue guilds with experience and level-based powers."
-items = [
-  { text = "Levels, experience and joining rules", status = "done" },
-  { text = "Ninja powers: grapple, arrow bombs, smoke bomb", status = "active" },
-  { text = "Rogue powers: berserker, blip, grenade, backstab", status = "active" },
-  { text = "Final-phase client movement and feel tuning", status = "later" },
-  { text = "Ignition and Nightmare special attacks", status = "done" },
-]
+text = "Grapple up walls, throw arrow bombs and vanish in a smoke bomb."
 
-[[phases]]
-name = "Mini-games and Areas"
-icon = "tnt"
-status = "active"
-summary = "Region-driven arenas on one shared framework."
-items = [
-  { text = "Spleef in all six City arenas", status = "done" },
-  { text = "Ninja Parkour, Rogue Training Target and Sand Arena", status = "done" },
-  { text = "Gems of Life and the death system", status = "done" },
-  { text = "Sky world access by playtime, invites and bans", status = "done" },
-  { text = "Graveyard graves", status = "done" },
-  { text = "Graveyard dungeon: temple, hall of lights, rewards room, parkour, night graves", status = "done" },
-  { text = "Graveyard spectators, phantom potions, ancient armour bursts and the remaining rules", status = "done" },
-  { text = "Sacrificial pits: loot, blessings, repairs; first-login Gems of Life", status = "done" },
-  { text = "Admin mode: admins play as normal players until they need to edit", status = "done" },
-  { text = "Utility items: tomes, oaths, hymns, flight items, build tools, Phantom Link, expiring gifts", status = "done" },
-  { text = "Giant Boss: Shnuggles Prime, nine attacks, baby zombies, bound loot", status = "done" },
-  { text = "Weather forecast and the apocalypse: rift, omen, corruption, six minibosses", status = "done" },
-  { text = "Apocalypse minibosses with their own models and art", status = "done" },
-  { text = "Mirage Arena: 19 voted maps, block reverts, gold, ignore lists", status = "done" },
-  { text = "Streamable arena snapshots; Jungle Raid rollback from a captured snapshot", status = "done" },
-  { text = "Jungle Raid and Sky Wars", status = "planned" },
-  { text = "Drop Party and party boxes", status = "done" },
-  { text = "Enchanted Forest", status = "done" },
-  { text = "Factory: smelting, brewing, lava supply, bound products", status = "done" },
-  { text = "City protection outside designated areas; no natural hostile mobs; working spawners", status = "done" },
-  { text = "Patient X: the ice arena, rage, nine tricks, drop party", status = "done" },
-  { text = "Cursed Mine: replenishing ores, Dave’s hauntings, and the flood gate", status = "done" },
-  { text = "Hot Springs: healing pools and the Carpe Diem geyser", status = "done" },
-  { text = "Vineam Prison puzzle raid", status = "done" },
-  { text = "Gold Rush bank robbery", status = "done" },
-  { text = "Frostborn: restore the arena and fight the Frozen King", status = "next" },
-  { text = "City areas: Freaky Four, Ritual Tomb and Bessi", status = "planned" },
-  { text = "Boss fights and apocalypse zombies", status = "later" },
-]
+[[teasers]]
+title = "Rogue powers"
+horizon = "working"
+icon = "key"
+text = "Go berserk, blip away, throw grenades and backstab."
 
-[[phases]]
-name = "Dimensions"
+[[teasers]]
+title = "Jungle Raid"
+horizon = "later"
+icon = "sapling"
+text = "The jungle arena game comes back."
+
+[[teasers]]
+title = "Sky Wars"
+horizon = "later"
 icon = "cloud"
-status = "active"
-summary = "Skelril owns the worlds; one server currently stacks them in height."
-items = [
-  { text = "Dimension store and relative coordinate foundation", status = "done" },
-  { text = "Shared dimension authority for terrain and gameplay", status = "done" },
-  { text = "Rebuild and verify the imported worlds", status = "done" },
-  { text = "Astaria, the sky world", status = "done" },
-  { text = "Halzeil, the ranged world", status = "done" },
-  { text = "Halzeil's own Nether; the City has none", status = "done" },
-  { text = "Range worlds: sapling replanting, surface blast protection, spawn rules and endermite swarms", status = "done" },
-  { text = "Range worlds: world levels, ore pools, demonic runes and minibosses", status = "done" },
-  { text = "Dimension ids ordered by world, each ranged world followed by its Nether", status = "done" },
-  { text = "Only the City is non-buildable", status = "done" },
-  { text = "Portals: a block and look per gate type, destinations by dimension role", status = "done" },
-  { text = "Existing gates imported and typed by their frame (761 portal blocks)", status = "done" },
-  { text = "Astaria: sky gate access and rescue from the void into the City", status = "done" },
-  { text = "Remapped gates carry leashed animals and pets and remember the departure point", status = "done" },
-  { text = "Flowing liquids and complete double-chest inventories", status = "done" },
-  { text = "Contained fountains and normal/soul lantern imports", status = "done" },
-  { text = "Heavy and light weighted pressure-plate imports", status = "done" },
-  { text = "Iron trapdoors and soul campfire imports", status = "done" },
-  { text = "Fully automatic conversion: chests, signs, frames, spawners and portals written into the map; legacy inventories given on join", status = "done" },
-  { text = "Reconvert the development world with the automatic conversion", status = "done" },
-  { text = "Roll the reconverted world out to the live server", status = "next" },
-  { text = "Dimension-aware warps, regions and spawn", status = "done" },
-  { text = "Client checks and review of old personal warp landings", status = "next" },
-]
+text = "The sky island arena game comes back."
 
-[[phases]]
-name = "Players and Progress"
+[[teasers]]
+title = "Freaky Four"
+horizon = "later"
 icon = "heart"
-status = "active"
-summary = "Legacy gear can be collected once; account reclamation remains a release task."
-items = [
-  { text = "Import and collect old inventories, armor, offhand and ender chests", status = "done" },
-  { text = "Revisit account reclamation before release", status = "later" },
-  { text = "Prayers and fun effects", status = "done" },
-  { text = "Cumulative permission groups for account activation and staff roles", status = "done" },
-  { text = "Item sorters (Grindstone networks imported; client check pending)", status = "done" },
-  { text = "Boss bars, hearts and scoreboards", status = "later" },
-]
+text = "The Freaky Four boss fight comes back to the City."
 
-[[phases]]
-name = "Our Own Mineclonia"
+[[teasers]]
+title = "Ritual Tomb"
+horizon = "later"
+icon = "door"
+text = "The Ritual Tomb reopens in the City."
+
+[[teasers]]
+title = "Bessi"
+horizon = "later"
+icon = "tree"
+text = "Bessi returns to the City."
+
+[[teasers]]
+title = "More custom tools"
+horizon = "later"
 icon = "gear"
-status = "active"
-summary = "The owned base game now shares Skelril’s dimension authority."
-items = [
-  { text = "Absorb Mineclonia and own the code", status = "done" },
-  { text = "Remove the End, keep the ender chest, eye and pearl", status = "later" },
-  { text = "Keep the mcl_ prefix so art and data stay compatible", status = "later" },
-]
+text = "The remaining Grindstone tools get their abilities."
+
+[[teasers]]
+title = "More scrolls"
+horizon = "later"
+icon = "sign"
+text = "The remaining scrolls get their abilities."
+
+[[teasers]]
+title = "More tomes"
+horizon = "later"
+icon = "torch"
+text = "The remaining tomes get their abilities."
+
+[[teasers]]
+title = "More hymns"
+horizon = "later"
+icon = "sun"
+text = "The remaining hymns get their abilities."
+
+[[teasers]]
+title = "Party boxes"
+horizon = "later"
+icon = "chest"
+text = "Party boxes get their abilities."
+
+[[teasers]]
+title = "Apocalypse zombies"
+horizon = "later"
+icon = "tnt"
+text = "The zombie apocalypse comes back."
+
+[[teasers]]
+title = "Boss bars"
+horizon = "later"
+icon = "heart"
+text = "A health bar on screen during boss fights."
+
+[[teasers]]
+title = "Scoreboards"
+horizon = "later"
+icon = "sign"
+text = "Live scores on screen in mini-games."
+
+[[teasers]]
+title = "The worlds go live"
+horizon = "later"
+icon = "cloud"
+text = "The fully converted City and worlds move to the live server."

@@ -27,5 +27,5 @@ Many features are written but not yet checked in a game client (guild powers, th
 say so where it matters.
 :::
 
-Grindstone areas that are not here yet, such as Frostborn, the Freaky Four, Jungle Raid, Sky Wars and drop
-parties, are on the [roadmap](/roadmap).
+Grindstone areas that are not here yet, such as Frostborn, the Freaky Four, Jungle Raid and Sky Wars,
+are on the [roadmap](/roadmap).
