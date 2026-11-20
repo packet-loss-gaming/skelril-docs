@@ -132,6 +132,8 @@ items = [
   { text = "City protection outside designated areas; no natural hostile mobs; working spawners", status = "done" },
   { text = "Patient X: the ice arena, rage, nine tricks, drop party", status = "done" },
   { text = "Cursed Mine: replenishing ores, Dave’s hauntings, and the flood gate", status = "done" },
+  { text = "Hot Springs: healing pools and the Carpe Diem geyser", status = "done" },
+  { text = "Vineam Prison puzzle raid", status = "next" },
   { text = "City areas: Freaky Four and Frostborn", status = "planned" },
   { text = "Boss fights and apocalypse zombies", status = "later" },
 ]
