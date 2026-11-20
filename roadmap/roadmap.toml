@@ -154,7 +154,7 @@ items = [
   { text = "Portals: a block and look per gate type, destinations by dimension role", status = "done" },
   { text = "Existing gates imported and typed by their frame (761 portal blocks)", status = "done" },
   { text = "Astaria: sky gate access and rescue from the void into the City", status = "done" },
-  { text = "Portal travel with leashed animals and tamed pets", status = "next" },
+  { text = "Remapped gates carry leashed animals and pets and remember the departure point", status = "done" },
   { text = "Flowing liquids and complete double-chest inventories", status = "done" },
   { text = "Contained fountains and normal/soul lantern imports", status = "done" },
   { text = "Heavy and light weighted pressure-plate imports", status = "done" },

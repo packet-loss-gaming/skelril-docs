@@ -15,6 +15,10 @@ block and the inside fills with that gate's own portal block. Each kind of gate 
 | Emerald block | Sky Gate | [Astaria](/guide/areas/sky-world), if you have access |
 | Obsidian | Nether Portal | the ranged world's Nether and back (one block there is eight here) |
 
-Stand inside a gate for a few seconds (no wait in creative). You arrive where you last used a gate in that dimension, or at its spawn if you never
-have. Nether trips do not change that remembered place, and a Nether portal is created for you at the other end when none is nearby. The City has no
-Nether: an obsidian gate there leads to the ranged world. Breaking any block of the ring closes the gate. Animals and other creatures do not use gates.
+Stand inside a gate for a few seconds (no wait in creative). You arrive where you last used a gate in that dimension, or at its spawn on your first visit. The gate remembers your departure facing the opposite direction. Nether trips leave that record alone. The portal creates an exit if there is no nearby Nether portal. An obsidian gate in the City leads to Halzeil. Breaking any block of the ring closes the gate.
+
+## Bringing animals
+
+Nearby cats, wolves and parrots you own follow you through Range, Time Machine, City and Sky Gates when they are standing. Animals on your lead follow too. The City's obsidian gates work the same way. Obsidian gates between Halzeil and its Nether leave companions behind.
+
+Craft two Leads with four string and a slimeball. Put string in the top-left, top-middle, middle-left and bottom-right slots, with the slimeball in the center. Right-click an animal while holding a Lead to attach it. Sneak-right-click the animal to release it and recover the Lead. Your animal must be within 16 blocks when you travel. If it cannot follow you through a gate, a used Lead drops where the animal was left.
