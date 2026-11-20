@@ -3,7 +3,7 @@
 # status: done | active | next | planned | later     icon: any name in the theme's src/pixelData.json (skelril-docs-theme)
 title = "Skelril"
 tagline = "The Grindstone server, rebuilt on Luanti."
-updated = 2026-11-18
+updated = 2026-11-19
 
 # A line ending in a backslash continues on the next line, without the line break.
 intro = """\
@@ -153,7 +153,8 @@ items = [
   { text = "Only the City is non-buildable", status = "done" },
   { text = "Portals: a block and look per gate type, destinations by dimension role", status = "done" },
   { text = "Existing gates imported and typed by their frame (761 portal blocks)", status = "done" },
-  { text = "Sky-world access, time machine periods and followers through portals", status = "planned" },
+  { text = "Astaria: sky gate access and rescue from the void into the City", status = "done" },
+  { text = "Portal travel with leashed animals and tamed pets", status = "next" },
   { text = "Flowing liquids and complete double-chest inventories", status = "done" },
   { text = "Contained fountains and normal/soul lantern imports", status = "done" },
   { text = "Heavy and light weighted pressure-plate imports", status = "done" },

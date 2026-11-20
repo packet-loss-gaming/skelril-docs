@@ -10,9 +10,9 @@ block and the inside fills with that gate's own portal block. Each kind of gate 
 | Ring block | Gate | Leads to |
 | --- | --- | --- |
 | Cobblestone | Range Gate | the ranged world |
-| Iron block | Time Machine Gate | the ranged world (archive periods are not available yet) |
+| Iron block | Time Machine Gate | the ranged world |
 | Stone bricks | City Gate | the City |
-| Emerald block | Sky Gate | the sky world |
+| Emerald block | Sky Gate | [Astaria](/guide/areas/sky-world), if you have access |
 | Obsidian | Nether Portal | the ranged world's Nether and back (one block there is eight here) |
 
 Stand inside a gate for a few seconds (no wait in creative). You arrive where you last used a gate in that dimension, or at its spawn if you never

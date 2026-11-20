@@ -8,6 +8,8 @@ icon: cloud
 guest: stand in the sky world and type `/sky invite <player>`; the guest types `/sky accept` and arrives at your side. Guests are
 sent back to the City when their host leaves the sky world or the server. An administrator can forbid a player from entering at all.
 
+If you fall through the bottom of Astaria, you reappear high above the City and keep falling. Landing can deal fall damage.
+
 Hostile mobs do not spawn on their own in the sky world. [Portals](/guide/mechanics/portals) lists the gates between the worlds.
 
 ## Other worlds
