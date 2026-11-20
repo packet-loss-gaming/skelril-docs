@@ -93,6 +93,5 @@ export default defineConfigWithTheme<SkelrilThemeConfig>({
       pattern: ({ filePath }) => `https://github.com/packet-loss-gaming/skelril-docs/edit/main/${filePath}`,
       text: 'Edit this page',
     },
-    footer: { copyright: 'Skelril is free software (GPLv3) and built on Mineclonia.' },
   },
 })

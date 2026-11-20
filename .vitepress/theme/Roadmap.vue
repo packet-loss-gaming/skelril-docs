@@ -15,7 +15,7 @@ const teasers = HORIZONS.flatMap((h) => data.teasers.filter((t) => t.horizon ===
     <SectionHead title="Coming up">Rough timing, not promises.</SectionHead>
     <div :class="$style.teasers">
       <section v-for="t in teasers" :key="t.title" :class="[$style.teaser, $style['h-' + t.horizon]]">
-        <h3><PixelIcon :name="t.icon" :px="3" />{{ t.title }}</h3>
+        <h3><span :class="$style.icon"><PixelIcon :name="t.icon" :px="3" /></span>{{ t.title }}</h3>
         <div :class="$style.body">
           <span :class="[$style.chip, $style['c-' + t.horizon]]">{{ data.horizons[t.horizon] }}</span>
           <p>{{ t.text }}</p>
@@ -32,6 +32,9 @@ const teasers = HORIZONS.flatMap((h) => data.teasers.filter((t) => t.horizon ===
 .teaser { background: var(--card); border: 4px solid; border-color: #c9a07a #5e4129 #5e4129 #c9a07a; display: flex; flex-direction: column; }
 .teaser h3 { margin: 0; display: flex; align-items: center; gap: 12px; font-family: "Silkscreen", monospace; font-weight: 700; font-size: 14px;
   line-height: 1.3; color: #fff; background: var(--dirt); padding: 10px 12px 8px; border-top: 7px solid var(--sky); }
+/* Icons differ in grid size (cloud is 16x5, sign 12x12); a fixed slot sized to the
+   largest at px=3 keeps pixels crisp while lining up titles and header heights. */
+.icon { flex: 0 0 48px; height: 36px; display: flex; align-items: center; justify-content: center; }
 .h-working h3 { border-top-color: var(--gold); }
 .h-later { border-style: dashed; border-color: var(--stone-light); }
 .h-later h3 { border-top-color: var(--stone-light); background: var(--card-alt); color: var(--ink); }
