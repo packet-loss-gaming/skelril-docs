@@ -133,7 +133,8 @@ items = [
   { text = "Patient X: the ice arena, rage, nine tricks, drop party", status = "done" },
   { text = "Cursed Mine: replenishing ores, Dave’s hauntings, and the flood gate", status = "done" },
   { text = "Hot Springs: healing pools and the Carpe Diem geyser", status = "done" },
-  { text = "Vineam Prison puzzle raid", status = "next" },
+  { text = "Vineam Prison puzzle raid", status = "done" },
+  { text = "Gold Rush bank robbery", status = "next" },
   { text = "City areas: Freaky Four and Frostborn", status = "planned" },
   { text = "Boss fights and apocalypse zombies", status = "later" },
 ]
