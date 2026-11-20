@@ -131,7 +131,8 @@ items = [
   { text = "Factory: smelting, brewing, lava supply, bound products", status = "done" },
   { text = "City protection outside designated areas; no natural hostile mobs; working spawners", status = "done" },
   { text = "Patient X: the ice arena, rage, nine tricks, drop party", status = "done" },
-  { text = "City areas: Cursed Mine, Freaky Four, Frostborn", status = "planned" },
+  { text = "Cursed Mine: replenishing ores, Dave’s hauntings, and the flood gate", status = "done" },
+  { text = "City areas: Freaky Four and Frostborn", status = "planned" },
   { text = "Boss fights and apocalypse zombies", status = "later" },
 ]
 

@@ -16,7 +16,7 @@ This is the **player guide**: what you can do **today**. Features are added to i
 | [Protecting your stuff](/guide/protecting-your-stuff) | City protection, Ziggy claims, container locks and player combat. |
 | [Mechanics](/guide/mechanics) | Wallet, lottery, market, highscores, warps and homes, portals, dying, sacrifices, item sorters, prayers, weather and the apocalypse. |
 | [Guilds](/guide/guilds) | The Ninja and Rogue guilds and their level-based powers. |
-| [Areas](/guide/areas) | The City, Astaria, Halzeil, the Grave Yard, the Factory and the PvP arenas. |
+| [Areas](/guide/areas) | The City, Astaria, Halzeil, the Grave Yard, the Cursed Mine, the Factory and the PvP arenas. |
 | [Bosses](/guide/bosses) | Shnuggles Prime and Patient X. |
 | [Mini-games](/guide/minigames) | Spleef. |
 | [Items](/guide/items) | Custom weapons and their special attacks, armour sets, potions and utility items. |
@@ -27,5 +27,5 @@ Many features are written but not yet checked in a game client (guild powers, th
 say so where it matters.
 :::
 
-Grindstone areas that are not here yet, such as the Cursed Mine, Frostborn, the Freaky Four, Jungle Raid, Sky Wars and drop
+Grindstone areas that are not here yet, such as Frostborn, the Freaky Four, Jungle Raid, Sky Wars and drop
 parties, are on the [roadmap](/roadmap).
