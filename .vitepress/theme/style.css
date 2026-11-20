@@ -1,0 +1,3 @@
+/* VitePress shows the "…" nav menu whenever `appearance` is set, but with 'force-auto' it hides the menu's only item
+   (the dark mode switch), leaving an empty dropdown. Remove this if the site gains social links or locales. */
+.VPNavBarExtra { display: none !important; }

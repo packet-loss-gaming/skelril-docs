@@ -6,6 +6,7 @@ import Home from './Home.vue'
 import News from './News.vue'
 import NewsHeader from './NewsHeader.vue'
 import Roadmap from './Roadmap.vue'
+import './style.css'
 
 export default {
   extends: SkelrilTheme,

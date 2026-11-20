@@ -76,7 +76,7 @@ onMounted(async () => {
 
       <aside :class="$style.side">
         <section :class="[$style.panel, $style.newHere]">
-          <h2><PixelIcon name="bed" :px="2" />New here?</h2>
+          <h2><span :class="$style.icon"><PixelIcon name="bed" :px="2" /></span>New here?</h2>
           <ol :class="$style.steps">
             <li><span>Get an activation code from a player who invites you.</span></li>
             <li><span>In the arrival room, type the code into chat or use <code>/activate &lt;code&gt;</code>.</span></li>
@@ -85,16 +85,16 @@ onMounted(async () => {
         </section>
 
         <a :class="$style.button" :href="withBase(CHEAT_SHEET_URL)">
-          <PixelIcon name="key" :px="2" />
+          <span :class="$style.icon"><PixelIcon name="key" :px="2" /></span>
           <span><b>Cheat sheet</b><small>All player commands on one page</small></span>
           <span :class="$style.arrow">→</span>
         </a>
 
         <section :class="$style.panel">
-          <h2><PixelIcon name="torch" :px="2" />Next up</h2>
+          <h2><span :class="$style.icon"><PixelIcon name="torch" :px="2" /></span>Next up</h2>
           <ul :class="$style.next">
             <li v-for="t in teasers" :key="t.title">
-              <PixelIcon :name="t.icon" :px="2" />
+              <span :class="$style.icon"><PixelIcon :name="t.icon" :px="2" /></span>
               <span :class="$style.teaserTitle">{{ t.title }}<span :class="[$style.chip, $style['c-' + t.horizon]]">{{ roadmap.horizons[t.horizon] }}</span></span>
               <p>{{ t.text }}</p>
             </li>
@@ -156,6 +156,9 @@ onMounted(async () => {
 .tipHead button:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
 
 .panel { background: var(--card); border: 4px solid; border-color: var(--dirt-light) var(--dirt-dark) var(--dirt-dark) var(--dirt-light); }
+/* Icons differ in grid size (bed 14x8, torch 6x10, cloud 16x5); a fixed slot sized to the largest at px=2 keeps
+   pixels crisp and starts every title at the same x. Panel headers and the cheat sheet button share the inset. */
+.icon { flex: none; width: 32px; height: 24px; display: grid; place-items: center; }
 .panel h2 { margin: 0; padding: 8px 10px 6px; border: 0; border-top: 6px solid var(--gold); display: flex; align-items: center; gap: 10px;
   font-family: "Silkscreen", monospace; font-weight: 700; font-size: 14px; line-height: 18px; color: #fff; background: var(--dirt); }
 .newHere h2 { background: var(--grass-dark); border-top-color: var(--grass-light); }
@@ -169,7 +172,7 @@ onMounted(async () => {
 .steps li::before { content: counter(step); display: grid; place-items: center; width: 26px; height: 26px; box-sizing: border-box;
   font-family: "Silkscreen", monospace; font-size: 12px; color: #fff; background: var(--grass); border: 2px solid var(--grass-dark); }
 
-.button { display: flex; align-items: center; gap: 12px; padding: 9px 12px 8px 10px; color: #fff; text-decoration: none; background: var(--dirt);
+.button { display: flex; align-items: center; gap: 10px; padding: 9px 12px 8px 11px; color: #fff; text-decoration: none; background: var(--dirt);
   border: 3px solid; border-color: var(--dirt-light) var(--dirt-dark) var(--dirt-dark) var(--dirt-light); }
 .button:hover { color: #fff; background: var(--grass); border-color: var(--grass-light) var(--grass-dark) var(--grass-dark) var(--grass-light); }
 .button span { display: grid; min-width: 0; }
@@ -180,7 +183,7 @@ onMounted(async () => {
 .next { list-style: none; margin: 0; padding: 4px 12px 8px; }
 .next li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; margin: 0; padding: 9px 0; border-bottom: 1px solid var(--card-alt); }
 .next li:last-child { border: 0; }
-.next li > svg { grid-row: span 2; margin-top: 2px; }
+.next li > .icon { grid-row: span 2; height: auto; align-self: start; margin-top: 2px; }
 .teaserTitle { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-weight: 700; font-size: 15px; }
 .next p { margin: 0; font-size: 14px; line-height: 1.4; }
 .chip { font-family: "Silkscreen", monospace; font-size: 10px; font-weight: 400; line-height: 14px; padding: 2px 6px 1px; border: 2px solid var(--deepslate);
