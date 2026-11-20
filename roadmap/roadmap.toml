@@ -128,7 +128,7 @@ items = [
   { text = "Streamable arena snapshots; Jungle Raid rollback from a captured snapshot", status = "done" },
   { text = "Jungle Raid and Sky Wars", status = "planned" },
   { text = "Drop Party and party boxes", status = "done" },
-  { text = "Enchanted Forest", status = "next" },
+  { text = "Enchanted Forest", status = "done" },
   { text = "Factory: smelting, brewing, lava supply, bound products", status = "done" },
   { text = "City protection outside designated areas; no natural hostile mobs; working spawners", status = "done" },
   { text = "Patient X: the ice arena, rage, nine tricks, drop party", status = "done" },
@@ -136,7 +136,8 @@ items = [
   { text = "Hot Springs: healing pools and the Carpe Diem geyser", status = "done" },
   { text = "Vineam Prison puzzle raid", status = "done" },
   { text = "Gold Rush bank robbery", status = "done" },
-  { text = "City areas: Freaky Four and Frostborn", status = "planned" },
+  { text = "Frostborn: restore the arena and fight the Frozen King", status = "next" },
+  { text = "City areas: Freaky Four, Ritual Tomb and Bessi", status = "planned" },
   { text = "Boss fights and apocalypse zombies", status = "later" },
 ]
 
