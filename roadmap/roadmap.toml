@@ -41,12 +41,6 @@ icon = "cloud"
 text = "The sky island arena game comes back."
 
 [[teasers]]
-title = "Ritual Tomb"
-horizon = "later"
-icon = "door"
-text = "The Ritual Tomb reopens in the City."
-
-[[teasers]]
 title = "Bessi"
 horizon = "later"
 icon = "tree"

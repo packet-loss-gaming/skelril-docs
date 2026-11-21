@@ -17,7 +17,7 @@ This is the **player guide**: what you can do **today**. Features are added to i
 | [Mechanics](/guide/mechanics) | Wallet, lottery, market, highscores, warps and homes, portals, dying, sacrifices, item sorters, prayers, weather and the apocalypse. |
 | [Guilds](/guide/guilds) | The Ninja and Rogue guilds and their level-based powers. |
 | [Areas](/guide/areas) | The City, Astaria, Halzeil, the Grave Yard, the Cursed Mine, the Factory and the PvP arenas. |
-| [Bosses](/guide/bosses) | Shnuggles Prime, Patient X, Frostborn and the Freaky Four. |
+| [Bosses](/guide/bosses) | Shnuggles Prime, Patient X, Frostborn, the Freaky Four and Ritual Tomb. |
 | [Mini-games](/guide/minigames) | Spleef. |
 | [Items](/guide/items) | Custom weapons and their special attacks, armour sets, potions and utility items. |
 | [Cheat sheet](/guide/cheat-sheet) | Every player command on one page. |
