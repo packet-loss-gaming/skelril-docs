@@ -41,12 +41,6 @@ icon = "cloud"
 text = "The sky island arena game comes back."
 
 [[teasers]]
-title = "Bessi"
-horizon = "later"
-icon = "tree"
-text = "Bessi returns to the City."
-
-[[teasers]]
 title = "More custom tools"
 horizon = "later"
 icon = "gear"
