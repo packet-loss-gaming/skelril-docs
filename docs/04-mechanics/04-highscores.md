@@ -4,7 +4,8 @@ icon: sign
 
 # Highscores
 
-`/highscores [-p page] [filter]` lists every score table. `/highscore <score type>` shows one table.
+`/highscores [filter]` opens the **Hall of Records**, a book with a card for every score table. Click a card to see its top
+ten (gold, silver and bronze for the first three) and your own score. `/highscore <score type>` opens one table directly.
 
 Each score type has its own rule for updating: *incremental* scores add up, *override* scores replace the old value,
 and some only replace it when the new value is better. Times are shown as hours, minutes and seconds, and guild

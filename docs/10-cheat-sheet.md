@@ -29,8 +29,8 @@ outline: 2
 | `/lottery buy [amount]` | Buy tickets. |
 | `/lottery pot` | See the pot. |
 | `/lottery recent` | Latest winners. |
-| `/highscores [-p page] [filter]` | List the score tables. |
-| `/highscore <type>` | Show one table. |
+| `/highscores [filter]` | Open the Hall of Records. |
+| `/highscore [type]` | Open one score table. |
 | `/claim [info]` | Inspect the Ziggy claim here. |
 | `/claim show` | Highlight the claim boundary for ten seconds. |
 | `/claim abandon [here]` | Withdraw from your unfrozen claims or just the current one. |
@@ -46,7 +46,6 @@ outline: 2
 | `/mirage vote <map>` | Vote for the next map. |
 | `/mirage ignore\|unignore <players>` | Stop or allow hurting them there. |
 | `/guild enable|disable|level|settings|teleport` | Guild powers. |
-| `/market [search]` | Browse and buy in the City market. |
 | `/sacrifice value` | Value the item in your hand. |
 | `/welcome` | Show the welcome text again. |
 | `/forecast` | Show the weather forecast. |
