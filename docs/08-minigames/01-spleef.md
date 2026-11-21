@@ -15,4 +15,4 @@ stomach. Falling through a hole, yours or someone else's, takes you out and give
 Once two or more players are on the floor, standing without digging earns a warning and then a punishment: the snow
 around you is removed.
 
-Your [guild powers](/guide/guilds) switch off while you play and return when you leave.
+Your [guild powers](/guide/guilds) and flight switch off while you play and return when you leave.
