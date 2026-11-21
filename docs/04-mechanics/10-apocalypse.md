@@ -21,7 +21,8 @@ You do not have to fight it, but you will want to know where it is.
 * **The rift** towers over the epicenter, hums, and draws in the ash. Lightning strikes around it again and again, and every strike - there or
   anywhere near you in the storm - raises the dead somewhere around the epicenter. The ground around the rift corrupts as the storm goes on:
   grass becomes nylium and soul soil, stone becomes netherrack and blackstone, and flames flicker on it.
-* **The horde** is many but simple-minded: it walks straight at the nearest player, hops small steps and strikes when close. When several of
+* **The horde** is many but simple-minded: it walks straight at the nearest player, hops small steps and strikes when close. Water does not stop it: the dead swim across and climb out on the far bank. They spread out
+  as they rise and keep a little apart while they come for you. When several of
   you fight together, the dead split between you by who is nearest, so no one draws the whole horde.
 * **When the storm breaks**, the dead fall, the rift closes, and the corruption recedes until every block is as it was.
 

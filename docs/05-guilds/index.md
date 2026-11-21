@@ -22,6 +22,7 @@ You earn experience by dealing damage: a tenth of the damage dealt (no more than
 Reaching a level takes `300 * level^2` experience. Each guild also has its own training area, described on its page. Guild
 levels have their own highscore tables.
 
+Your guild powers are on whenever you log in. If you log in somewhere they are not allowed (in jail or an arena), they switch on as soon as you leave.
 Your guild powers switch off while you are inside an arena that hands out its own gear (like Spleef) and return when you leave.
 They also do not work in the [Grave Yard](/guide/areas/graveyard)'s hall of lights or on its parkour.
 

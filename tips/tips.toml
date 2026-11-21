@@ -77,3 +77,7 @@ link = "/guide/mechanics/market"
 [[tips]]
 text = "Reporting a problem with a place? Run `/whereami` and quote the coordinates it shows."
 link = "/guide/mechanics/warps"
+
+[[tips]]
+text = "Right-click a block while holding a pickaxe to place a torch from your inventory, on the floor or on a wall. No need to switch items."
+link = "/guide/getting-started#your-inventory"

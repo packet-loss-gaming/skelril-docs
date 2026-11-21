@@ -51,6 +51,13 @@ at that moment, those items come back to you.
 
 If you move away, disconnect or fill your inventory during payment, your paid order stays saved. Return to a Spirit Seller and click **Collect orders**. An interrupted delivery may need an administrator to check it before collection can continue. The market does not automatically issue another copy when a previous delivery is uncertain.
 
+## The economy screen
+
+The gold button in your inventory opens the economy screen, anywhere. It only shows information; trading still happens at the
+traders. On the right are your Skrin balance and what everything the market buys in your inventory would sell for. Below is
+your inventory: click a stack and the top shows that item's buy and sell prices, how many are in stock and what that stack would
+sell for. Renamed and special items are marked as kept. **Refresh** reloads your balance and the prices.
+
 ## Stock and prices
 
 Stock and prices update every two hours; expensive items retain their stock until bought.

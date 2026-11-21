@@ -21,12 +21,29 @@ Members can use `/invite` to create one single-use activation code. `/invite new
 `/setwelcomelocation` chooses where your invited players arrive. When somebody activates with your code,
 you receive one referral reward once you are online and back in your normal inventory.
 
+## Your inventory
+
+Skelril has no off-hand slot: whatever you hold is in your main hand. The buttons in your inventory open:
+
+| Button | Opens |
+| --- | --- |
+| Gold (where Minecraft's off-hand slot was) | The **Economy** screen: your Skrin balance, what your inventory would sell for, and the market prices of anything you click (see [Market](/guide/mechanics/market#the-economy-screen)). |
+| Book | The recipe book. |
+| Violet rift | Your [warps](/guide/mechanics/warps) (the same menu as `/warps`). |
+| Gear | Player settings (your skin). |
+| Trophy | The Hall of Records, every [high score](/guide/mechanics/highscores) table (the same as `/highscores`). |
+
+**Torches from your pickaxe:** right-click a block while holding any pickaxe and a torch from your inventory is placed on the face you
+clicked, on the floor or on a wall. Torches, soul torches and copper torches all work (the first one in your inventory, hotbar first).
+Blocks with their own use, such as chests and doors, still open as usual, and sneaking keeps the pickaxe's own right-click (the Linear and
+Radial pickaxes open their settings).
+
 ## Your Grindstone inventory
 
 If your Minecraft account is linked to your imported account, your Minecraft inventory is given to you automatically a moment after you join. There is nothing to run.
 
-Current items are preserved. If there is not enough room in your main inventory, armor slots, offhand or ender chest, nothing is given yet: the server tells you which part to clear and gives everything as soon as there is space (it checks again every minute and whenever you join).
+Current items are preserved. If there is not enough room in your main inventory, armor slots or ender chest, nothing is given yet: the server tells you which part to clear and gives everything as soon as there is space (it checks again every minute and whenever you join).
 
-The import includes carried items, equipped armor, the offhand and ender-chest contents. It preserves mapped custom items, supported enchantments on ordinary items and wear. Skelril's own custom items come without the enchantments they had in Minecraft; you can enchant them like any other item. Minecraft positions are not imported. Ordinary custom names, book text and map contents are not retained; a few items have no equivalent in this game.
+The import includes carried items, equipped armor, the offhand (its item goes into your main inventory) and ender-chest contents. It preserves mapped custom items, supported enchantments on ordinary items and wear. Skelril's own custom items come without the enchantments they had in Minecraft; you can enchant them like any other item. Minecraft positions are not imported. Ordinary custom names, book text and map contents are not retained; a few items have no equivalent in this game.
 
 If you are in a mini-game or recovering a saved inventory, delivery waits until you are done. If saving the restoration marker fails, the server reports it and retries without granting again during that server run. An abrupt server crash in that interval can result in a duplicate restore.

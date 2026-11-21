@@ -31,7 +31,7 @@ Every 20 seconds he plays a trick, announced by what he says:
 * **TNT**, **wither** and **splash potions**.
 * **"Cold feet":** slowness.
 * **Bats** that carry you off (sneak to let go).
-* **Radiation:** stay out of the lit spots and the water while it lasts.
+* **Radiation:** green glitter marks the irradiated spots; stay out of the lit spots and the water while it lasts.
 * **A snowball fight.**
 
 ## Dying and rewards
