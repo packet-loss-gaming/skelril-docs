@@ -29,18 +29,6 @@ icon = "key"
 text = "Go berserk, blip away, throw grenades and backstab."
 
 [[teasers]]
-title = "Jungle Raid"
-horizon = "later"
-icon = "sapling"
-text = "The jungle arena game comes back."
-
-[[teasers]]
-title = "Sky Wars"
-horizon = "later"
-icon = "cloud"
-text = "The sky island arena game comes back."
-
-[[teasers]]
 title = "More custom tools"
 horizon = "later"
 icon = "gear"
