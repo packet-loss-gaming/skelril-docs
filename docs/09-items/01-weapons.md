@@ -10,6 +10,16 @@ All ten custom bows can be drawn and fired. Hold the place/right-click control o
 
 Survival shots require ammunition and use durability. Infinity preserves regular arrows, while tipped arrows are consumed. Creative shots need neither ammunition nor durability. Switching items or dropping a charging bow cancels the draw.
 
+### Choosing arrows
+
+There is no off-hand. To pick which arrows a bow or crossbow shoots, hold that kind of arrow and right-click (in the air or on a
+block that does nothing when clicked). A short note above the hotbar confirms the choice. Bows and crossbows then use that kind while you
+carry any. If you have only one kind, or have not chosen, they take the first arrows in your inventory. Your choice is remembered
+when you log out.
+
+**Spectral arrows** fly like plain arrows and make what they hit glow, visible through walls, for 10 seconds. Craft two from an arrow
+surrounded by four glowstone dust (top, bottom, left and right). Tipped arrows give their potion's effect.
+
 ## Melee weapons
 
 Custom melee weapons apply their original damage multipliers, including fractional values, before armor reduction. Normal weapon and enchantment rules still apply.

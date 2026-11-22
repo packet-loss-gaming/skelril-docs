@@ -31,3 +31,13 @@ Imported lanterns include standing and hanging variants, with warm normal lights
 Imported heavy and light weighted pressure plates preserve their analog redstone strength.
 
 Iron trapdoors retain their open/closed state and work with redstone. Imported soul campfires retain their lit state and blue fire.
+
+**Beacons** are decorative. They need no pyramid or fuel and give no effects. Power one with redstone (a lever, a redstone block,
+a torch, ...) and it shines a beam of light into the sky. The beam is white, or takes the colour of the last stained glass block or
+pane it passes through, and shines through every kind of glass. Solid blocks stop it.
+
+The worlds' animals came along: farm animals, tamed pets (still yours if your Minecraft account is linked), horses, donkeys, mules
+and llamas with their saddles, armour, carpets and chests, and villagers (with their profession, but new trades). Minecarts keep
+their contents, armor stands keep their armour, and paintings keep their size and place but show Skelril's own artwork. Animals
+Skelril does not have (foxes, goats, turtles, pandas, bees, frogs) did not come over. Corals and sea pickles sit on their reef
+blocks, redstone dust keeps its connections, and anvils, banners and beehives work as placed ones do.
