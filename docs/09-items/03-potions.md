@@ -18,7 +18,8 @@ The effects use Mineclonia's potion system. Its damage and movement formulas can
 
 ## Travel potions
 
-The **Phantom Potion** carries you to your most recent grave and the **Potion of Restitution** to where you last died; see
+The **Phantom Potion** carries you to your most recent grave (with a wooden pickaxe to dig it out, if you carry no pickaxe) and the
+**Potion of Restitution** to where you last died; see
 [Dying](/guide/mechanics/death#getting-back). Gifts such as the Newbie Phantom Potion expire after the time shown on them and stop
 working.
 
