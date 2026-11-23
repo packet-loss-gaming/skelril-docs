@@ -12,8 +12,9 @@ offence. See [Guilds](/guide/guilds) for joining, experience and commands.
 | Power | How |
 | --- | --- |
 | **Turbo Speed** | Rogues move twice as fast as other players. |
+| **Light Landing** | Rogues take 30% less fall damage. |
 | **Blip** | Double-left-click the air with a sword to dash through the air. Look up on the ground to dash upwards. Shooting a bow or being caught in a Smoke Bomb delays your next blip. |
-| **Impact** | Blip while falling and looking down to slam into the ground, taking 60% less fall damage. |
+| **Impact** | Blip while falling and looking down to slam into the ground. The slam itself costs nothing extra: you take 60% less damage than the fall would deal, and never more than three hearts, so it is the safe way down from great heights. |
 | **Grenade** | Double-right-click with a sword to throw a volley of five to nine explosive knives where you look. |
 | **Rocket Jump** | Throw a grenade at your feet while standing on the ground to launch yourself into the air. |
 
@@ -28,7 +29,7 @@ offence. See [Guilds](/guide/guilds) for joining, experience and commands.
 | 12 | Nightmare Special | A sword special attack (1 in 14 hits) that unleashes a nightmare around your target, draining nearby foes to heal you. |
 | 17 | Sniper Knives | Grenade knives fly straighter. |
 | 20 | Backstab | Hitting someone from behind triples the Berserker bonus. |
-| 23 | Like a Meteor | Sneak as you land an Impact to set off a ring of explosions around you. |
+| 23 | Like a Meteor | Sneak as you land an Impact to set off a ring of explosions around you. They do not hurt you. |
 | 30 | Super Speed | Turbo Speed becomes two and a half times normal speed. |
 
 ## Rogue Training Target
