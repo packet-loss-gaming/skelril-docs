@@ -61,3 +61,11 @@ filed.
 
 - Closing the screen keeps what you typed; `/report` opens it again. If sending fails, your text is kept as well.
 - You can send five reports every five minutes. Your account must be activated first.
+
+## Getting around
+
+- `/spawn` takes you to the spawn of the dimension you are in.
+- To visit a friend, `/call` them (`/tpa` works too); they accept with `/bring <your name>` within five minutes.
+- `/return` takes you back to where you were before your last teleport, or to where you died. Up to ten places are remembered
+  until the server restarts; use it again to go further back. Areas that control who may enter (boss rooms, the jail, mini-games)
+  can still refuse it.

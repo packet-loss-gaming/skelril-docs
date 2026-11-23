@@ -26,6 +26,15 @@ outline: 2
 | `/warps list [-p page] [filter]` | List warps. |
 | `/home` | Go home. |
 | `/whereami` | Show your coordinates, dimension and facing. |
+| `/spawn` | Go to the spawn of the dimension you are in. |
+| `/call <player>` (`/tpa`) | Ask a player to bring you to them. |
+| `/bring <player>` | Accept a player's `/call`: they appear next to you. |
+| `/return` (`/ret`) | Go back to where you were before your last teleport or death; repeat to go further back. |
+| `/who [filter]` | List the players online. |
+| `/msg <player> <message>`, `/reply <message>` (`/r`) | Private messages; `/reply` answers the last one. |
+| `/clear [-a] [-s]` | Empty your inventory except the hotbar (`-a`: everything, armour too; `-s`: only what you hold). |
+| `/slay` | Kill yourself (when you are stuck). |
+| `/motd`, `/rules`, `/ping` | The welcome message, the rules, a quick "is the server there". |
 | `/report [description]` | Open the report screen to tell the staff about a bug or problem. |
 | `/lottery buy [amount]` | Buy tickets. |
 | `/lottery pot` | See the pot. |
