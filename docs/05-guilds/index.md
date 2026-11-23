@@ -38,4 +38,4 @@ They also do not work in the [Grave Yard](/guide/areas/graveyard)'s hall of ligh
 Both guilds have the settings **Verbose Experience** and **Allow Environmental Damage** (whether your explosions damage blocks).
 Rogues also have **Blip While Sneaking**, **Show Berserker Buffs** and **Animate Blips**.
 
-Pitfall traps do not exist yet, so the pitfall powers have nothing to act on.
+The pitfall powers act on [pitfall traps](/guide/mechanics/pitfalls).
