@@ -54,7 +54,8 @@ Found a bug, a broken mechanism or something that looks wrong? Stand near it and
 one-line title and describe what happened, what you expected and how to see it again, then press **Send report**. Anything you type
 after the command, such as `/report the lift is stuck`, starts the description.
 
-The report becomes an issue on the Skelril issue tracker, which anyone can read. Your player name, the dimension, your position, the
+The report goes to the staff's private issue tracker; only the staff can read it. Use it for griefing too: stand at the damage when you
+report it, so the staff can look up who changed what there. Your player name, the dimension, your position, the
 regions you are standing in and the time are attached, so you do not need to type them. You will be told the issue number once it is
 filed.
 
