@@ -47,3 +47,16 @@ Current items are preserved. If there is not enough room in your main inventory,
 The import includes carried items, equipped armor, the offhand (its item goes into your main inventory) and ender-chest contents. It preserves mapped custom items, supported enchantments on ordinary items and wear. Skelril's own custom items come without the enchantments they had in Minecraft; you can enchant them like any other item. Minecraft positions are not imported. Ordinary custom names, book text and map contents are not retained; a few items have no equivalent in this game.
 
 If you are in a mini-game or recovering a saved inventory, delivery waits until you are done. If saving the restoration marker fails, the server reports it and retries without granting again during that server run. An abrupt server crash in that interval can result in a duplicate restore.
+
+## Reporting a problem
+
+Found a bug, a broken mechanism or something that looks wrong? Stand near it and type `/report`. A report screen opens: give it a
+one-line title and describe what happened, what you expected and how to see it again, then press **Send report**. Anything you type
+after the command, such as `/report the lift is stuck`, starts the description.
+
+The report becomes an issue on the Skelril issue tracker, which anyone can read. Your player name, the dimension, your position, the
+regions you are standing in and the time are attached, so you do not need to type them. You will be told the issue number once it is
+filed.
+
+- Closing the screen keeps what you typed; `/report` opens it again. If sending fails, your text is kept as well.
+- You can send five reports every five minutes. Your account must be activated first.

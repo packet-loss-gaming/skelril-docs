@@ -26,6 +26,7 @@ outline: 2
 | `/warps list [-p page] [filter]` | List warps. |
 | `/home` | Go home. |
 | `/whereami` | Show your coordinates, dimension and facing. |
+| `/report [description]` | Open the report screen to tell the staff about a bug or problem. |
 | `/lottery buy [amount]` | Buy tickets. |
 | `/lottery pot` | See the pot. |
 | `/lottery recent` | Latest winners. |
