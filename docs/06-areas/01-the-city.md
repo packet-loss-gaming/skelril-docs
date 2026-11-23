@@ -34,7 +34,7 @@ Iron trapdoors retain their open/closed state and work with redstone. Imported s
 
 **Beacons** are decorative. They need no pyramid or fuel and give no effects. Power one with redstone (a lever, a redstone block,
 a torch, ...) and it shines a beam of light into the sky. The beam is white, or takes the colour of the last stained glass block or
-pane it passes through, and shines through every kind of glass. Solid blocks stop it.
+pane it passes through, and shines through every kind of glass. Solid blocks stop it. Soft pulses of light keep rising up the beam.
 
 The worlds' animals came along: farm animals, tamed pets (still yours if your Minecraft account is linked), horses, donkeys, mules
 and llamas with their saddles, armour, carpets and chests, and villagers (with their profession, but new trades). Minecarts keep

@@ -69,3 +69,10 @@ filed.
 - `/return` takes you back to where you were before your last teleport, or to where you died. Up to ten places are remembered
   until the server restarts; use it again to go further back. Areas that control who may enter (boss rooms, the jail, mini-games)
   can still refuse it.
+
+## Away from the keyboard
+
+- After three minutes without walking, clicking, chatting or using your inventory you are marked AFK: you are grey in `/who`,
+  take no damage, and mobs leave you alone. Anything you do ends it. `/afk [status]` marks you away at once (without the protection),
+  and people who message you are told.
+- Idle players are disconnected after an hour, or sooner when the server is busy. Just log back in.

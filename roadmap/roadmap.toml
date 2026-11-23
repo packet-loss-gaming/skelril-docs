@@ -17,6 +17,12 @@ icon = "pearl"
 text = "Restore the frozen arena, then fight the Frozen King."
 
 [[teasers]]
+title = "Mechanism blocks"
+horizon = "working"
+icon = "gear"
+text = "The old CraftBook signs become real blocks: portcullis gates, mystic bridges, lift panels and cursed coin tables."
+
+[[teasers]]
 title = "Ninja powers"
 horizon = "working"
 icon = "sun"

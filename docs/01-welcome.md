@@ -14,7 +14,7 @@ This is the **player guide**: what you can do **today**. Features are added to i
 | --- | --- |
 | [Getting started](/guide/getting-started) | Your first day, and how your Grindstone inventory comes back to you. |
 | [Protecting your stuff](/guide/protecting-your-stuff) | City protection, Ziggy claims, container locks and player combat. |
-| [Mechanics](/guide/mechanics) | Wallet, lottery, market, highscores, warps and homes, portals, dying, sacrifices, item sorters, prayers, weather and the apocalypse. |
+| [Mechanics](/guide/mechanics) | Wallet, lottery, market, highscores, warps and homes, portals, dying, sacrifices, item sorters, prayers, weather, the apocalypse, and gates, lifts and other mechanisms. |
 | [Guilds](/guide/guilds) | The Ninja and Rogue guilds and their level-based powers. |
 | [Areas](/guide/areas) | The City, Astaria, Halzeil, the Grave Yard, the Cursed Mine, the Factory and the PvP arenas. |
 | [Bosses](/guide/bosses) | Shnuggles Prime, Patient X, Frostborn, the Freaky Four, Ritual Tomb and Bessi. |

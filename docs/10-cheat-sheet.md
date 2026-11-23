@@ -30,7 +30,9 @@ outline: 2
 | `/call <player>` (`/tpa`) | Ask a player to bring you to them. |
 | `/bring <player>` | Accept a player's `/call`: they appear next to you. |
 | `/return` (`/ret`) | Go back to where you were before your last teleport or death; repeat to go further back. |
-| `/who [filter]` | List the players online. |
+| `/who [filter]` | List the players online (AFK players are grey). |
+| `/afk [status]` (`/away`) | Mark yourself away; people messaging you see the status. Moving or doing anything ends it. |
+| `/gamemode` (`/gm`) | Show your game mode. |
 | `/msg <player> <message>`, `/reply <message>` (`/r`) | Private messages; `/reply` answers the last one. |
 | `/clear [-a] [-s]` | Empty your inventory except the hotbar (`-a`: everything, armour too; `-s`: only what you hold). |
 | `/slay` | Kill yourself (when you are stuck). |
