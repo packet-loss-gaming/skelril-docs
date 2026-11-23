@@ -28,10 +28,11 @@ Some places protect you on their own and never spend a gem: the [Sand Arena](/gu
 ## Getting back
 
 **Phantom Potions** carry you to your most recent grave. For 30 seconds mobs leave you alone and the Grave Yard's fog cannot blind
-you, until you hurt something. Without a known grave the potion is not drunk. New players get a **Newbie Phantom Potion** (see
+you, until you hurt something. Without a known grave the potion is not drunk. If you carry no pickaxe, you arrive with a wooden one to dig your grave out. New players get a **Newbie Phantom Potion** (see
 [Getting started](/guide/getting-started)); it expires after the time shown on it.
 
 The **Potion of Restitution** carries you to where you last died (with 10 seconds of poison); without a known death point it is not
 drunk. Your belongings are in a grave, not where you died, so use a Phantom Potion to get them back.
 
-You respawn at your [home](/guide/mechanics/warps#your-home) when it is safe, otherwise at the dimension's spawn.
+You respawn at your [home](/guide/mechanics/warps#your-home) when it is safe, otherwise at the dimension's spawn. Some places send you
+elsewhere: jail puts you back in your cell, and arenas such as the Sand Arena and the mini-games put you at their exit.

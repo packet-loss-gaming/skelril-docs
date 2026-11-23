@@ -21,10 +21,10 @@ everyone is on the same side, the game does not start.
 |---|---|
 | Bandit | Iron sword, bow, 128 arrows, 96 TNT |
 | Archer | Bow with Punch II, bow with Flame II, 128 arrows, 96 TNT |
-| Knight | Iron sword with Fire Aspect II and Knockback II, shield, 96 TNT |
+| Knight | Iron sword with Fire Aspect II and Knockback II, 96 TNT |
 | Lumberjack | Diamond axe with Sharpness III and Knockback II |
 | Sniper | The **Legendary Jungle Bow**, wooden sword, 32 arrows |
-| Engineer | Iron sword, diamond pickaxe, shield, 348 TNT |
+| Engineer | Iron sword, diamond pickaxe, 348 TNT |
 
 Every class also gets shears, 64 cooked beef and a compass. All classes except the Lumberjack get a stronger iron axe. Bandit,
 Archer, Knight and Engineer also get flint and steel. You wear leather armour in your team's colour.
