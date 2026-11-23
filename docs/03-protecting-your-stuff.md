@@ -38,3 +38,10 @@ PvP, combat is possible only where both players stand in a PvP area, such as the
 You cannot change the setting for seven seconds after a player hit. Disconnecting in that window marks the
 logout; on the next login, the Giant Chicken gives the player a three-minute glass-cage and starvation curse.
 An administrative kick does not count. PvP turns off whenever you disconnect.
+
+## If something gets griefed
+
+The server keeps a log of block changes, container access, deaths and chat, including what was set off indirectly: fire someone
+started and let spread, their TNT, lava they poured, or a creeper that was chasing them. Staff can look up who changed a block and
+undo a griefer's changes, so report damage with `/report` and say where it is. The log is kept for 30 days (7 days for changes
+nobody caused, such as a stray enderman). Passwords and activation codes typed in commands are never logged.
