@@ -11,18 +11,6 @@ working = "In the works"
 later = "Later"
 
 [[teasers]]
-title = "Frostborn"
-horizon = "soon"
-icon = "pearl"
-text = "Restore the frozen arena, then fight the Frozen King."
-
-[[teasers]]
-title = "Mechanism blocks"
-horizon = "working"
-icon = "gear"
-text = "The old CraftBook signs become real blocks: portcullis gates, mystic bridges, lift panels and cursed coin tables."
-
-[[teasers]]
 title = "Ninja powers"
 horizon = "working"
 icon = "sun"
@@ -35,16 +23,22 @@ icon = "key"
 text = "Go berserk, blip away, throw grenades and backstab."
 
 [[teasers]]
-title = "More custom tools"
-horizon = "later"
-icon = "gear"
-text = "The remaining Grindstone tools get their abilities."
+title = "Apocalypse zombies"
+horizon = "working"
+icon = "tnt"
+text = "Every thunderstorm over the City tears open a rift, and the dead pour out of it."
 
 [[teasers]]
-title = "More scrolls"
+title = "Magic combat"
 horizon = "later"
-icon = "sign"
-text = "The remaining scrolls get their abilities."
+icon = "pearl"
+text = "Fight with magic: spells join swords and bows in battle."
+
+[[teasers]]
+title = "Craftable mechanisms"
+horizon = "later"
+icon = "gear"
+text = "Craft your own gates, bridges, lifts and circuits and build them into your own places."
 
 [[teasers]]
 title = "More tomes"
@@ -53,37 +47,31 @@ icon = "torch"
 text = "The remaining tomes get their abilities."
 
 [[teasers]]
-title = "More hymns"
+title = "Bank tellers"
 horizon = "later"
-icon = "sun"
-text = "The remaining hymns get their abilities."
+icon = "key"
+text = "Tellers at the bank's counters take your deposits and pay out your withdrawals."
 
 [[teasers]]
-title = "Party boxes"
+title = "Lottery vendor"
+horizon = "later"
+icon = "pearl"
+text = "A lottery vendor sells tickets and calls out the pot."
+
+[[teasers]]
+title = "A new casino"
 horizon = "later"
 icon = "chest"
-text = "Party boxes get their abilities."
+text = "The casino comes back, rebuilt by hand."
 
 [[teasers]]
-title = "Apocalypse zombies"
-horizon = "later"
-icon = "tnt"
-text = "The zombie apocalypse comes back."
-
-[[teasers]]
-title = "Boss bars"
-horizon = "later"
-icon = "heart"
-text = "A health bar on screen during boss fights."
-
-[[teasers]]
-title = "Scoreboards"
+title = "Discord chat"
 horizon = "later"
 icon = "sign"
-text = "Live scores on screen in mini-games."
+text = "Chat between the game and the Discord server."
 
 [[teasers]]
 title = "The worlds go live"
 horizon = "later"
 icon = "cloud"
-text = "The fully converted City and worlds move to the live server."
+text = "The fully converted City, Astaria and Halzeil move to the live server, with their mechanisms, traps and true biomes."
