@@ -35,6 +35,7 @@ Everyone starts at a random spot in the jungle. A one-minute calm comes first: c
 spot. Then the countdown, and the slaughter begins. The last player or team standing wins.
 
 - Your compass lists the enemies and their distance. Dark red names are in your line of sight.
+- Enemies only see the name above your head while they can see you; leaves and walls hide it. Your team mates always see it.
 - Falling onto jungle leaves bounces you instead of hurting.
 - Leaving the lobby and arena takes you out. After 15 minutes, TNT starts raining (unless **No Time Limit** is on).
 - The Legendary Jungle Bow throws extra harming or poison potions at targets you hit from far away.

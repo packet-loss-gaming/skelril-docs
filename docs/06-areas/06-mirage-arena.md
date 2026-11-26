@@ -9,8 +9,9 @@ The Mirage Arena (Carpe Diem district) is a PvP arena whose whole map changes by
 ## Voting for a map
 
 `/mirage list` shows the 19 maps; `/mirage vote <map>` starts a one-minute vote among everyone near the arena, then the map with
-the most votes is drained of water and lava and rebuilt (watch the bar at the top; nothing in the arena hurts you meanwhile, except
-other players).
+the most votes is drained of water and lava and rebuilt. The copper plaque at the top of the screen shows the map that would win
+right now, the seconds left and the other maps' votes, then the rebuild's progress. Nothing in the arena hurts you while it
+rebuilds, except other players.
 
 ## Fighting
 

@@ -39,6 +39,11 @@ You cannot change the setting for seven seconds after a player hit. Disconnectin
 logout; on the next login, the Giant Chicken gives the player a three-minute glass-cage and starvation curse.
 An administrative kick does not count. PvP turns off whenever you disconnect.
 
+**Name tags.** While you are in PvP (with `/pvp` on or in a PvP area), in a Jungle Raid or Sky Wars arena, or sneaking, other
+players see the name above your head only while they have a clear line of sight to you: solid blocks and leaves hide it, glass,
+fences, slabs and plants do not. Team mates always see each other's names, and spectators see everyone's. Everywhere else, everyone
+sees your name.
+
 ## If something gets griefed
 
 The server keeps a log of block changes, container access, deaths and chat, including what was set off indirectly: fire someone
