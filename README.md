@@ -9,6 +9,8 @@ Published at **https://wiki.skelril.net** by GitHub Actions to GitHub Pages. It 
   pixel icon. Callouts: `::: tip Title` / `::: info ...` / `::: warning ...`, closed by `:::`.
   A directory is a sidebar section; its `index.md` is the section page (`<CategoryIndex />` lists its chapters). Inline code starting with `/` renders
   as a command chip.
+  The cheat sheet (`docs/*-cheat-sheet.md`) lists each table's rows in alphabetical order of their first cell
+  (case-insensitive, ignoring backticks); the build checks it.
 - `news/*.md`: news posts (`/news/<name>`). Frontmatter: `type`, `title`, `date` (unquoted, such as `2026-11-19`) and
   `summary` (one line for the list and the feed). Two types:
   - `type: feature`: one feature that arrived, with `guide` (its player guide page, such as `/guide/areas/gold-rush`)

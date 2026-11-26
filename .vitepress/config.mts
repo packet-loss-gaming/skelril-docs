@@ -7,6 +7,7 @@ import { scanChapters, skelrilMarkdown, type SkelrilThemeConfig } from 'vitepres
 import { isPostFile, MONTH_NAMES } from './theme/news'
 import { FEED_PATH, FEED_TITLE, guideTitle, guideUrls, NEWS_GLOB, renderFeed, toPosts } from './theme/news.node'
 import { TIPS_PATH } from './theme/tips'
+import { checkCheatSheet } from './theme/cheat-sheet.node'
 import { loadTips, renderTips } from './theme/tips.node'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
@@ -43,6 +44,7 @@ export default defineConfigWithTheme<SkelrilThemeConfig>({
   // The feed is /news/rss.xml, beside the posts. The news list is news/index.md, served at /news/: with both news.html
   // and a news/ folder, GitHub Pages would redirect /news to an empty /news/.
   async buildEnd({ outDir }) {
+    checkCheatSheet(root, guide.rewrites)
     for (const [file, { render }] of Object.entries(generated)) {
       fs.mkdirSync(path.dirname(path.join(outDir, file)), { recursive: true })
       fs.writeFileSync(path.join(outDir, file), await render())

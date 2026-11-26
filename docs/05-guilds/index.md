@@ -35,7 +35,8 @@ They also do not work in the [Grave Yard](/guide/areas/graveyard)'s hall of ligh
 | `/guild settings [name true\|false]` | Toggle personal options. |
 | `/guild teleport` | Go to your guild base. |
 
-Both guilds have the settings **Verbose Experience** and **Allow Environmental Damage** (whether your explosions damage blocks).
+Both guilds have the settings **Verbose Experience** and **Allow Environmental Damage** (whether your explosions damage blocks). With it on, your guild
+explosives break blocks wherever your TNT would: only where you could build.
 Rogues also have **Blip While Sneaking**, **Show Berserker Buffs** and **Animate Blips**.
 
 The pitfall powers act on [pitfall traps](/guide/mechanics/pitfalls).

@@ -20,6 +20,8 @@ icon: gear
 | Linear Block Placer | Hold it and right-click a block face to lay a line of its chosen block outwards from that face (through air and plants only; the blocks come from your inventory). Right-click the air, or sneak + right-click, to open its settings: pick the block from the blocks you carry and the distance (1 to 9). The settings are saved on the item and shown in its tooltip. Like the other build tools it does not work in the City. |
 | Phantom Link | Punch a container to link it; use the link anywhere to open that container while you stay put (you must be allowed to open it). |
 
+The linear and radial tools work at most four times a second. Sweeping across blocks with the button held digs only the block you punch until the tool is ready again.
+
 Flying items never work where flying is not allowed, and they speed up walking too while active. Build tools may not be used in the City. All of these
 are tested only without a game client so far.
 

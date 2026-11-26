@@ -13,7 +13,7 @@ joining, experience and commands.
 | --- | --- |
 | **Arrow Bomb** | Left-click the air with a bow after firing: your arrow explodes where it is. |
 | **Smoke Bomb** | Left-click a block with a bow: nearby enemies are pulled to where you stood, you swap places with the farthest one, and a bomb goes off at your old spot. |
-| **Grapple** | Right-click a wall with an empty hand, sword or tool to climb to its top, up to 9 blocks. Sneak for a small hop instead. |
+| **Grapple** | Right-click a wall with an empty hand, sword or tool to climb to its top, up to 9 blocks. Sneak for a small hop instead. Grapple ignores clicks on or right next to doors, chests, buttons and other usable blocks. |
 | **Free arrows** | One arrow in four comes back to you. |
 
 ## Advanced powers

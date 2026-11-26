@@ -13,7 +13,8 @@ Ranged worlds share these rules.
 - In range overworlds, saplings that sit on suitable soil for over a minute can plant themselves if
   the spot is clear and unprotected. The rest of the stack stays on the ground.
 - Explosions in either range dimension still hurt nearby creatures and players. Above relative Y 58,
-  they leave blocks intact and start no fires.
+  explosions from hostile mobs such as creepers and ghasts leave blocks intact and start no fires.
+  Your own TNT and guild explosives work everywhere you could build, so you can quarry with TNT.
 - Natural hostile mobs are less likely to appear around well-lit spots. Nether portals in the range
   worlds and Astaria suppress portal mob spawns.
 - On hard difficulty, a zombie that gets through a wooden door opens both halves if the door is unprotected.

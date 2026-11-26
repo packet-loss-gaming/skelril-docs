@@ -11,6 +11,10 @@ can never lose or duplicate money.
 
 `/pay <player> <amount>` sends Skrin to another player.
 
+`/ledger` shows where your money went and came from: every change of your balance with its reason (market purchases and
+sales, bank deposits and withdrawals, payments and who they were with, lottery tickets and wins, rewards). It shows the last
+7 days, 20 lines at most; `/ledger time=30d limit=50` looks further back.
+
 ## Bank signs
 
 City signs marked `[Bank]` or `[Conversion]` exchange gold and Skrin at face value: a nugget is 1 Skrin,
