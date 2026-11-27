@@ -62,6 +62,13 @@ filed.
 - Closing the screen keeps what you typed; `/report` opens it again. If sending fails, your text is kept as well.
 - You can send five reports every five minutes. Your account must be activated first.
 
+## Messages from the game
+
+What the game tells you on its own (special attacks, bosses' moves, apocalypse warnings, hauntings, the lottery, the jail, drop
+parties and Goblet winners) arrives as a card at the bottom left of the screen, not in chat. Up to five cards stack there, the newest
+on top showing the whole message and older ones shrunk to one line. Warnings of a coming attack flash and sound a short sting.
+Chat keeps what players say and the replies to your commands. Cards are not kept, so read them while they are up.
+
 ## Getting around
 
 - `/spawn` takes you to the spawn of the dimension you are in.

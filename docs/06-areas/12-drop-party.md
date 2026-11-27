@@ -4,7 +4,7 @@ icon: chest
 
 # Drop Party
 
-Use `/warp party-room` to reach the Oblitus Party Room. The weekly party starts its countdown at 20:00 on Saturday in the server's local time. Watch chat for announcements.
+Use `/warp party-room` to reach the Oblitus Party Room. The weekly party starts its countdown at 20:00 on Saturday in the server's local time. Watch the cards at the bottom left of the screen for announcements.
 
 To host a party, put the items you want to give away into the room's chests and press a stone button. The party collects the contents of every chest in the room and drops them after a one-minute countdown.
 

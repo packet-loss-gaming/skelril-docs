@@ -40,7 +40,7 @@ coordinates when you report a problem with a place.
 
 ## Dimensions
 
-A warp remembers its destination dimension as well as its coordinates. Compasses point to the current dimension's spawn when its rules allow them; lodestone and recovery compasses only track targets in the same dimension. Maps are tied to one dimension, even when two dimensions share overworld behavior.
+A warp remembers its destination dimension as well as its coordinates. Compasses point to the current dimension's spawn when its rules allow them; lodestone compasses only track lodestones in the same dimension. Maps are tied to one dimension, even when two dimensions share overworld behavior.
 
 Gates between the worlds are described in [Portals](/guide/mechanics/portals). The End is unavailable.
 

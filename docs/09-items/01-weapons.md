@@ -12,8 +12,8 @@ Survival shots require ammunition and use durability. Infinity preserves regular
 
 ### Choosing arrows
 
-There is no off-hand. To pick which arrows a bow or crossbow shoots, hold that kind of arrow and right-click (in the air or on a
-block that does nothing when clicked). A short note above the hotbar confirms the choice. Bows and crossbows then use that kind while you
+There is no off-hand. To pick which arrows a bow shoots, hold that kind of arrow and right-click (in the air or on a
+block that does nothing when clicked). A short note above the hotbar confirms the choice. Bows then use that kind while you
 carry any. If you have only one kind, or have not chosen, they take the first arrows in your inventory. Your choice is remembered
 when you log out.
 
@@ -30,8 +30,9 @@ Player-against-player combat follows the [PvP rules](/guide/protecting-your-stuf
 
 ## Special attacks
 
-A hit with a special weapon on a surviving target may unleash one of its special attacks, picked at random. Swords and bows have
-separate 3.8-second cooldowns. Special attacks respect PvP rules and dimension boundaries, and your chat tells you which one fired.
+A hit with a special weapon may unleash one of its special attacks, picked at random, including the blow that kills the target:
+the special strikes first and your hit lands on what is left. Swords and bows have separate 3.8-second cooldowns. Special attacks
+respect PvP rules and dimension boundaries, and a card at the bottom left of the screen tells you which one fired.
 
 | Weapon | Special attacks |
 | --- | --- |

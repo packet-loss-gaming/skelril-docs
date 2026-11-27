@@ -24,7 +24,7 @@ You do not have to fight it, but you will want to know where it is.
 * **The horde** is many but simple-minded: it walks straight at the nearest player, hops small steps and strikes when close. Water does not stop it: the dead swim across and climb out on the far bank. They spread out
   as they rise and keep a little apart while they come for you. When several of
   you fight together, the dead split between you by who is nearest, so no one draws the whole horde.
-* **When the storm breaks**, the dead fall, the rift closes, and the corruption recedes until every block is as it was.
+* **When the storm breaks**, the dead fall, minibosses and all, the rift closes, and the corruption recedes until every block is as it was.
 
 ## Fighting the dead
 
