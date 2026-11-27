@@ -34,7 +34,8 @@ drops items reserved for you over several seconds. Mining at higher levels earns
 but can attract monsters or infest nearby stone with silverfish.
 
 Your level determines how much damage you deal to ordinary range monsters and how hard they can
-hit you. The health readout shows the monster's health at your own level. At higher levels, your
+hit you. While your level is above one, it shows beside your potion effects in the top right corner
+whenever you are in Halzeil or its Nether. At higher levels, your
 share of the fight determines the Demonic Runes you earn. Sacrificing a rune opens a temporary
 portal that releases protected loot. While you carry a rune, warps, pearls, world gates and portable
 containers are restricted. Nether portals still work.

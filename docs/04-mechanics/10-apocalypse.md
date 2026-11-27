@@ -29,8 +29,9 @@ You do not have to fight it, but you will want to know where it is.
 ## Fighting the dead
 
 Defeating the dead may strengthen one of four temporary storm buffs: Overlord, Magic Shield,
-Damage Boost or Life Leach. `/buffs` lists your current levels under the Apocalypse category.
-The server announces each increase as it happens. These buffs are memory-only and disappear
+Damage Boost or Life Leach. Your active buffs sit beside your potion effects in the top right
+corner, each with its level (they have no timer); `/buffs` lists them too. The server announces
+each increase as it happens. These buffs are memory-only and disappear
 when the apocalypse ends.
 
 Apocalyptic zombies sometimes drop gold, Phantom Ashes, and very rarely the Tome of the Rift Splitter or Peaceful Warrior
