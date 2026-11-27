@@ -6,6 +6,7 @@ import Home from './Home.vue'
 import News from './News.vue'
 import NewsHeader from './NewsHeader.vue'
 import Roadmap from './Roadmap.vue'
+import SkinTool from './SkinTool.vue'
 import './style.css'
 
 export default {
@@ -16,5 +17,6 @@ export default {
     app.component('Home', Home)
     app.component('News', News)
     app.component('Roadmap', Roadmap)
+    app.component('SkinTool', SkinTool)
   },
 } satisfies Theme

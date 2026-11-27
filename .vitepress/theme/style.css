@@ -1,3 +1,9 @@
 /* VitePress shows the "…" nav menu whenever `appearance` is set, but with 'force-auto' it hides the menu's only item
    (the dark mode switch), leaving an empty dropdown. Remove this if the site gains social links or locales. */
 .VPNavBarExtra { display: none !important; }
+
+/* The skin tool (skins.md, pageClass) puts the model beside its steps, so it takes the width an aside would. */
+@media (min-width: 960px) {
+  .skin-tool-page .VPDoc:not(.has-sidebar) .container { max-width: 1104px; }
+  .skin-tool-page .VPDoc:not(.has-sidebar) .content { max-width: 1040px; }
+}
